@@ -1,7 +1,10 @@
+$fontcolor: #707070;
+$fontcolor_hover: #3d3d3d;
+
 .menubtn {
   /* background-color: #4f9df5; */
-  background-color: #ffffff00;
-  color: #707070;
+  background-color: #707070;
+  color: $fontcolor;
   font-size: 20px;
   margin-bottom: 15px;
   font: {
@@ -13,15 +16,7 @@
   transition: 0.3s ease-out;
 }
 .menubtn:hover {
-  color: #313131;
-}
-.mnbtn {
-  background-color: #ffffff00;
-  color: #cacaca;
-  font-size: 20px;
-  margin-bottom: 15px;
-  outline: none;
-  border: none;
+  color: #ff2020;
 }
 #ham-menu {
   background-color: #fff; /*メニュー背景色*/
@@ -66,34 +61,19 @@
   transition: all 0.3s ease-out; /*0.3s はアニメーションにかかる時間*/
   z-index: 1000;
 }
-
 #menu-cb {
   display: none; /*チェックボックス本体は消しておく*/
 }
-
 #menu-cb:checked ~ #ham-menu,
 #menu-cb:checked ~ #menu-icon {
   transform: translate(300px); /*メニュー本体横幅 width と合わせる*/
 }
-
 #menu-cb:checked ~ #menu-background {
   opacity: 0.5;
   z-index: 999;
 }
 li {
   list-style: none;
-}
-
-.menu_space {
-  position: fixed;
-  margin: {
-    top: -20px;
-    left: -10px;
-  }
-  background-color: white;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
-  width: 300px;
-  height: 110%;
 }
 .menu_ul {
   margin: {
@@ -103,29 +83,16 @@ li {
 .menu_li {
   margin: 10px 0px;
 }
-.menubtn:hover {
-  color: #ff2020;
-}
-.main_table {
-  margin: {
-    left: -15px;
-  }
-}
-.main_td_space {
-  min-width: 300px;
-}
-.main_td {
-  background-color: #ffffff;
-  width: 100%;
-  height: 100%;
-  height: 900px;
-  vertical-align: top;
-}
-
 @media screen and (min-width: 481px) {
   // こちらはPC用
   .phone_res {
     display: none;
+  }
+  .main_td {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
   }
 }
 
@@ -134,4 +101,11 @@ li {
   .pc_res {
     display: none;
   }
+  .main_td {
+    display: none;
+  }
+}
+
+button {
+  background-color: $fontcolor;
 }

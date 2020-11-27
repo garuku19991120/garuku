@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="./css/master.min.css">
     <link rel="stylesheet" href="./css/contact.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
-
+    <script>
+        console.log("WELCOME");
+    </script>
     <title>CONTACT/お問い合わせ</title>
 </head>
 

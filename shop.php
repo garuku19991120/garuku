@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="./css/master.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
     <link rel="stylesheet" href="./css/shop.min.css">
-
+    <script>
+        console.log("WELCOME");
+    </script>
     <title>SHOP/ショップ</title>
 </head>
 

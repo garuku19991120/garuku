@@ -16,3 +16,5 @@
         <td>2020.10.10 : イラスト集「GAISEN」発売</td>
     </tr>
 </table>
+
+<?php include('./php/copywrite.php'); ?>

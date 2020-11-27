@@ -62,3 +62,5 @@
     </li> -->
     </ul>
 </div>
+
+<?php include('./copywrite.php'); ?>

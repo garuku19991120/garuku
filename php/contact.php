@@ -111,3 +111,6 @@
         </td>
     </tr>
 </table>
+
+
+<?php include('./copywrite.php'); ?>

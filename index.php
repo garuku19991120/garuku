@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./css/master.min.css">
     <link rel="stylesheet" href="./css/home.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
+    <script>
+        console.log("WELCOME");
+    </script>
 
     <title>GAISEN/GARUKU</title>
 </head>
@@ -20,7 +23,6 @@
             </td>
             <td clas="main">
                 <?php include('./php/home.php'); ?>
-                <?php include('./php/copywrite.php'); ?>
             </td>
         </tr>
     </table>

@@ -1,1 +1,50 @@
-null
+@charset "UTF-8";
+.test {
+  background-color: #707070;
+  width: 1500px;
+  height: 300px;
+}
+
+.slidespace {
+  margin-left: 2px;
+  margin-top: 30px;
+  width: 100%;
+  height: 300px;
+  background-color: #707070;
+}
+
+.slidespace img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* この一行を追加するだけ！ */
+}
+
+.title-border {
+  font-size: 26px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #707070;
+}
+
+.title-border:before,
+.title-border:after {
+  border-top: 1px solid #707070;
+  content: "";
+  flex-grow: 1;
+}
+
+.title-border:before {
+  margin-right: 1rem;
+}
+
+.title-border:after {
+  margin-left: 1rem;
+}
+
+.circle_info {
+  color: #707070;
+  margin: auto;
+}

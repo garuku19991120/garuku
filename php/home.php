@@ -7,13 +7,13 @@
 
 <table border="0" class="circle_info">
     <tr>
-        <td>2019.11.10 : イラスト集「GAISEN」発売</td>
+        <td>2020.11.23 : イラスト集「GAISEN」発売</td>
     </tr>
     <tr>
-        <td>2020.10.10 : イベント「コミックマーケット９７」サークル参加</td>
+        <td>2020.11.23 : イベント「COMITIA134」サークル参加</td>
     </tr>
     <tr>
-        <td>2020.10.10 : イラスト集「GAISEN」発売</td>
+        <td>2021.02.23 : イラスト集「LOLIPOP!」発売</td>
     </tr>
 </table>
 

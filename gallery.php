@@ -13,16 +13,19 @@
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td class="menu">
-                <?php include('./php/menu.php'); ?>
-            </td>
-            <td clas="main">
-                <?php include('./php/gallery.php'); ?>
-            </td>
-        </tr>
-    </table>
+
+    <?php include('./php/menu.php'); ?>
+
+    <div class="main_space">
+        <table class="main_table">
+            <tr class="main_tr">
+                <td class="main_td_space"></td>
+                <td class="main_td">
+                    <?php include('./php/gallery.php'); ?>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>

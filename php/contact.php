@@ -1,4 +1,4 @@
-<table border="0">
+<!-- <table border="0">
     <tr>
         <td colspan="2" class="info_title">お問い合わせ</td>
     </tr>
@@ -54,7 +54,7 @@
         </td>
         <td></td>
     </tr>
-</table>
+</table> -->
 <table>
 
     <tr>
@@ -113,4 +113,4 @@
 </table>
 
 
-<?php include('./copywrite.php'); ?>
+<?php include('./php/copywrite.php'); ?>

@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="./css/master.min.css">
     <link rel="stylesheet" href="./css/gallery.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
-    <script>
-        console.log("WELCOME");
-    </script>
+    <script src="./js/none.js"></script>
     <title>GALLERY/ギャラリー</title>
 </head>
 

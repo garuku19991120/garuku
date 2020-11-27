@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="./css/master.min.css">
     <link rel="stylesheet" href="./css/home.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
-    <script>
-        console.log("WELCOME");
-    </script>
-
+    <script src="./js/none.js"></script>
     <title>GAISEN/GARUKU</title>
 </head>
 

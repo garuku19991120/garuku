@@ -50,4 +50,4 @@
 </div>
 
 
-<?php include('copywrite.php'); ?>
+<?php include('./php/copywrite.php'); ?>

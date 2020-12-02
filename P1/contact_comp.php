@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="2; URL=">
+    <!-- <meta http-equiv="refresh" content="2; URL="> -->
     <link rel="stylesheet" href="./css/master.min.css">
     <link rel="stylesheet" href="./css/contact.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
@@ -20,7 +20,7 @@
             <tr class="main_tr">
                 <td class="main_td_space"></td>
                 <td class="main_td">
-                    <?php include('./php/contact_confirm.php'); ?>
+                    <?php include('./php/contact_comp.php'); ?>
                 </td>
             </tr>
         </table>

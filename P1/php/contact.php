@@ -55,62 +55,75 @@
         <td></td>
     </tr>
 </table> -->
-<table>
 
+<table>
     <tr>
-        <td>
-            お名前
-        </td>
-        <td>
-            <input type="text" [(ngModel)]="nametext">
+        <td>現在お仕事を募集しております。<br>
+            ご用がございましたらお手数をおかけいたしますが<br>
+            こちらのページにご記入お願いいたします。<br>
         </td>
     </tr>
     <tr>
-        <td>
-            メールアドレス
-        </td>
-        <td>
-            <input type="text" [(ngModel)]="nametext">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            電話番号
-        </td>
-        <td>
-            <input type="text" [(ngModel)]="nametext">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            貴社のホームページ
-        </td>
-        <td>
-            <input type="text" [(ngModel)]="nametext">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            ご希望納期
-        </td>
-        <td>
-            <input type="text" [(ngModel)]="nametext">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            ご予算
-        </td>
-        <td>
-            <input type="text" [(ngModel)]="nametext">
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2">
-            <button>送信</button>
-        </td>
+        <td></td>
     </tr>
 </table>
+<form action="contact_confirm.php">
+    <table>
 
+        <tr>
+            <td>
+                お名前
+            </td>
+            <td>
+                <input type="text" [(ngModel)]="nametext">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                メールアドレス
+            </td>
+            <td>
+                <input type="text" [(ngModel)]="nametext">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                電話番号
+            </td>
+            <td>
+                <input type="text" [(ngModel)]="nametext">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                貴社のホームページ
+            </td>
+            <td>
+                <input type="text" [(ngModel)]="nametext">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                ご希望納期
+            </td>
+            <td>
+                <input type="text" [(ngModel)]="nametext">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                ご予算
+            </td>
+            <td>
+                <input type="text" [(ngModel)]="nametext">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="送信">
+            </td>
+        </tr>
+    </table>
+</form>
 
 <?php include('./php/copywrite.php'); ?>

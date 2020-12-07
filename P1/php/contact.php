@@ -137,5 +137,10 @@
             </td>
         </tr>
     </table>
+    </td>
+    </tr>
+
+
+    </table>
 </form>
 <?php include('./php/copywrite.php'); ?>

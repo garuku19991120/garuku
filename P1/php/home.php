@@ -1,6 +1,6 @@
 <div class="slidespace">
-    <!-- <img src=".\assets\img\head.png" alt=""> -->
-    <div class="test"></div>
+    <img src=".\img\head.png" alt="">
+    <!--     <div class="test"></div> -->
 </div>
 <div class="title-border">サークル情報</div>
 

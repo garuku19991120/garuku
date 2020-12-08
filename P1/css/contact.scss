@@ -5,14 +5,48 @@ $maincolor: #707070;
     size: 35px;
   }
 }
-input {
+.monmon {
+  width: 500px;
   font: {
-    size: 25px;
+    size: 18px;
   }
+}
+input {
+  height: 30px;
+}
+textarea {
+  height: 200px;
 }
 table {
   margin: auto;
 }
 td {
   color: $maincolor;
+}
+.headmoji {
+  font: {
+    size: 30px;
+  }
+}
+.otoiawasetop {
+  height: 35px;
+}
+.button {
+  height: 50px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  font: {
+    size: 20px;
+  }
+  color: $maincolor;
+  border: none;
+  outline: none;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+.button:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.spaceclass {
+  height: 50px;
 }

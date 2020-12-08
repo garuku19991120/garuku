@@ -5,16 +5,16 @@
                 <li>
                     <a href="//garuku1120.booth.pm/items/1780418">
                         <div class="shop_contents">
-                            <!-- <img src="./assets/img/shop1.jpg" alt="" class="shop_kyanbasu"> -->
-                            <div class="test"></div>
+                            <img src="./img/shop1.jpg" alt="" class="shop_kyanbasu">
+                            <!-- <div class="test"></div> -->
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="//garuku1120.booth.pm/items/2474058">
                         <div class="shop_contents">
-                            <!--  <img src="./assets/img/shop2.jpg" alt="" class="shop_tsyatu"> -->
-                            <div class="test"></div>
+                            <img src="./img/shop2.jpg" alt="" class="shop_tsyatu">
+                            <!-- <div class="test"></div> -->
                         </div>
                     </a>
                 </li>
@@ -25,16 +25,16 @@
                 <li>
                     <a href="//garuku1120.booth.pm/items/1780418">
                         <div class="shop_contents">
-                            <!-- <img src="./assets/img/shop1.jpg" alt="" class="shop_kyanbasu"> -->
-                            <div class="test"></div>
+                            <img src="./img/shop1.jpg" alt="" class="shop_kyanbasu">
+                            <!-- <div class="test"></div> -->
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="//garuku1120.booth.pm/items/1780418">
                         <div class="shop_contents">
-                            <!-- <img src="./assets/img/shop1.jpg" alt="" class="shop_kyanbasu"> -->
-                            <div class="test"></div>
+                            <img src="./img/shop1.jpg" alt="" class="shop_kyanbasu">
+                            <!-- <div class="test"></div> -->
                         </div>
                     </a>
                 </li>

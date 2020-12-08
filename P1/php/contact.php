@@ -56,15 +56,10 @@
     </tr>
 </table> -->
 <form action="contact_confirm.php" method="post">
-    <table>
+    <table border="0">
         <tr>
             <td colspan="2" class="otoiawasetop">
-                <p>お問い合わせ</p>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <p></p>
+                <p class="headmoji">お問い合わせ</p>
             </td>
         </tr>
         <tr>
@@ -73,6 +68,9 @@
                 <p>ご用がありましたらお手数をお掛け致しますが
                     こちらのページのご記入をお願いいたします。</p>ご質問の場合は必須以外の項目を空欄で、ご依頼の場合は全ての項目を記入お願いいたします。
             </td>
+        </tr>
+        <tr>
+            <td class="spaceclass" colspan="2"></td>
         </tr>
         <tr>
             <td class="monmon2"><label for="name">お名前</label></td>
@@ -132,15 +130,13 @@
         <tr>
             <td colspan="2">
                 <center>
-                    <input type="submit" value="送信する" class="button">
+                    <input type="submit" value="送信" class="button">
                 </center>
             </td>
         </tr>
     </table>
     </td>
     </tr>
-
-
     </table>
 </form>
 <?php include('./php/copywrite.php'); ?>

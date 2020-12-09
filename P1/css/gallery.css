@@ -18,7 +18,7 @@
   padding: 30px;
 }
 
-.center ul li ol li img .test {
+.center ul li ol li img .test .gazou {
   width: 500px;
   height: auto;
 }
@@ -37,9 +37,4 @@ img:hover .test:hover {
   background-color: #707070;
   width: 400px;
   height: 500px;
-}
-
-.gazou {
-  width: 500px;
-  height: auto;
 }

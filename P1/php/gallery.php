@@ -2,12 +2,12 @@
     <ul>
         <li>
             <ol>
-                <li><img src="./img/image1.png" class="gazou"></li>
-                <li><img src="./img/image3.png" class="gazou"></li>
-                <li><img src="./img/image5.png" class="gazou"></li>
-                <li><img src="./img/image3.png" class="gazou"></li>
-                <li><img src="./img/image3.png" class="gazou"></li>
-                <li><img src="./img/image1.png" class="gazou"></li>
+                <li><img src="./img/image1.png" width="500"></li>
+                <li><img src="./img/image3.png" width="500"></li>
+                <li><img src="./img/image5.png" width="500"></li>
+                <li><img src="./img/image7.png" width="500"></li>
+                <li><img src="./img/image9.png" width="500"></li>
+                <li><img src="./img/image11.png" width="500"></li>
                 <!-- <li>
                     <div class="test"></div>
                 </li>
@@ -27,12 +27,12 @@
         </li>
         <li>
             <ol>
-                <li><img src="./img/image2.png" alt=""></li>
-                <li><img src="./img/image2.png" alt=""></li>
-                <li><img src="./img/image3.png" alt=""></li>
-                <li><img src="./img/image4.png" alt=""></li>
-                <li><img src="./img/image1.png" alt=""></li>
-                <li><img src="./img/image1.png" alt=""></li>
+                <li><img src="./img/image1.png" width="500"></li>
+                <li><img src="./img/image2.png" width="500"></li>
+                <li><img src="./img/image4.png" width="500"></li>
+                <li><img src="./img/image6.png" width="500"></li>
+                <li><img src="./img/image8.png" width="500"></li>
+                <li><img src="./img/image10.png" width="500"></li>
                 <!-- <li>
                     <div class="test"></div>
                 </li>

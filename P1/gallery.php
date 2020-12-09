@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--     <meta http-equiv="refresh" content="2; URL="> -->
     <link rel="stylesheet" href="./css/master.min.css">
-    <link rel="stylesheet" href="./css/gallery.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
+    <link rel="stylesheet" href="./css/gallery.min.css">
     <script src="./js/none.js"></script>
     <title>GALLERY/ギャラリー</title>
 </head>

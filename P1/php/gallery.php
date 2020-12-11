@@ -2,64 +2,24 @@
     <ul>
         <li>
             <ol>
-                <li><img src="./img/image1.png" width="500"></li>
-                <li><img src="./img/image3.png" width="500"></li>
-                <li><img src="./img/image5.png" width="500"></li>
-                <li><img src="./img/image7.png" width="500"></li>
-                <li><img src="./img/image9.png" width="500"></li>
-                <li><img src="./img/image11.png" width="500"></li>
-                <!-- <li>
-                    <div class="test"></div>
-                </li>
-                <li>
-                    <div class="test"></div>
-                </li>
-                <li>
-                    <div class="test"></div>
-                </li>
-                <li>
-                    <div class="test"></div>
-                </li>
-                <li>
-                    <div class="test"></div>
-                </li> -->
+                <li><img src="./img/image1.png"></li>
+                <li><img src="./img/image3.png"></li>
+                <li><img src="./img/image5.png"></li>
+                <li><img src="./img/image7.png"></li>
+                <li><img src="./img/image9.png"></li>
+                <li><img src="./img/image11.png"></li>
             </ol>
         </li>
         <li>
             <ol>
-                <li><img src="./img/image1.png" width="500"></li>
-                <li><img src="./img/image2.png" width="500"></li>
-                <li><img src="./img/image4.png" width="500"></li>
-                <li><img src="./img/image6.png" width="500"></li>
-                <li><img src="./img/image8.png" width="500"></li>
-                <li><img src="./img/image10.png" width="500"></li>
-                <!-- <li>
-                    <div class="test"></div>
-                </li>
-                <li>
-                    <div class="test"></div>
-                </li>
-                <li>
-                    <div class="test"></div>
-                </li>
-                <li>
-                    <div class="test"></div>
-                </li>
-                <li>
-                    <div class="test"></div>
-                </li> -->
+                <li><img src="./img/image1.png"></li>
+                <li><img src="./img/image2.png"></li>
+                <li><img src="./img/image4.png"></li>
+                <li><img src="./img/image6.png"></li>
+                <li><img src="./img/image8.png"></li>
+                <li><img src="./img/image10.png"></li>
             </ol>
         </li>
-        <!-- <li>
-        <ol>
-            <li><img src="./assets/img/image2.png" alt=""></li>
-            <li><img src="./assets/img/image3.png" alt=""></li>
-            <li><img src="./assets/img/image2.png" alt=""></li>
-            <li><img src="./assets/img/image3.png" alt=""></li>
-            <li><img src="./assets/img/image3.png" alt=""></li>
-            <li><img src="./assets/img/image3.png" alt=""></li>
-        </ol>
-    </li> -->
     </ul>
 </div>
 

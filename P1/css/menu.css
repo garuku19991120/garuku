@@ -5,8 +5,8 @@
   color: #707070;
   font-size: 20px;
   margin-bottom: 15px;
-  font-family: impact;
-  font-size: 48px;
+  /* family: impact; */
+  font-size: 25px;
   outline: none;
   border: none;
   transition: 0.3s ease-out;
@@ -67,17 +67,17 @@
   /*アイコン（フォント）色*/
   cursor: pointer;
   display: block;
-  font-size: 50px;
+  font-size: 70px;
   /*アイコン（フォント）サイズ*/
-  height: 50px;
+  height: 70px;
   /*アイコン縦高さ*/
-  line-height: 50px;
+  line-height: 70px;
   /*縦位置中央化*/
   position: fixed;
   left: 0;
   text-align: center;
   top: 0;
-  width: 50px;
+  width: 70px;
   /*アイコン横幅*/
   transition: all 0.3s ease-out;
   /*0.3s はアニメーションにかかる時間*/
@@ -150,6 +150,9 @@ li {
 
 @media screen and (max-width: 480px) {
   .pc_res {
+    display: none;
+  }
+  .main_td_space {
     display: none;
   }
 }

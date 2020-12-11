@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/master.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
     <link rel="stylesheet" href="./css/gallery.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./js/none.js"></script>
     <title>GALLERY/ギャラリー</title>
 </head>

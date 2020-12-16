@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="./css/master.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
     <link rel="stylesheet" href="./css/gallery.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./js/none.js"></script>
     <title>GALLERY/ギャラリー</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 </head>
 
 <body>
-
     <?php include('./php/menu.php'); ?>
 
     <div class="main_space">
@@ -28,5 +29,6 @@
         </table>
     </div>
 </body>
+<!-- <a href="./img/26082000635.jpg" data-lightbox="group"><img src="./img/26082000635.jpg" width="300"></a> -->
 
 </html>

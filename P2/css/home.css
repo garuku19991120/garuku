@@ -1,0 +1,13 @@
+.dekaimoji {
+  font-size: 150px;
+  position: absolute;
+  z-index: 60;
+}
+
+.mainimage {
+  width: 70%;
+  object-fit: cover;
+  position: absolute;
+  margin-right: 0px;
+  z-index: 1;
+}

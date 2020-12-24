@@ -1,0 +1,19 @@
+$maincolor: rgb(255, 27, 27);
+$subcolor: rgb(27, 255, 244);
+
+.logo {
+  width: 200px;
+}
+.menu_btn {
+  color: $maincolor;
+  font: {
+    size: 20px;
+  }
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+.menu_space {
+  height: 50px;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3);
+}

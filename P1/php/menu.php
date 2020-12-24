@@ -38,6 +38,9 @@
 
 <div class="pc_res">
     <div class="menu_space">
+        <a href="index.php">
+            <img src="./img/logo.png" class="logo">
+        </a>
         <ul class="menu_ul">
             <li class="menu_li">
                 <a href="index.php">

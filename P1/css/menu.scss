@@ -23,6 +23,21 @@
   outline: none;
   border: none;
 }
+.logo {
+  width: 250px;
+  margin: {
+    left: 25px;
+    top: 50px;
+  }
+}
+.logophone {
+  width: 250px;
+}
+.logospace {
+  background-color: white;
+  box-shadow: 10px 0px 3px#707070;
+  text-align: center;
+}
 #ham-menu {
   background-color: #fff; /*メニュー背景色*/
   box-sizing: border-box;

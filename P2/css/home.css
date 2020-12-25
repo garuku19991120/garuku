@@ -1,13 +1,79 @@
-.dekaimoji {
-  font-size: 150px;
+@charset "UTF-8";
+/* 
+追加googleフォント一覧
+font-family: 'Bungee Outline', cursive;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+.mainimage {
+  background-color: #ff1b1b;
+  width: 1200px;
+  height: 700px;
   position: absolute;
-  z-index: 60;
+  margin-left: 600px;
+  margin-top: 100px;
+  display: inline;
 }
 
-.mainimage {
-  width: 70%;
-  object-fit: cover;
+.dekaimoji2 {
+  font-size: 150px;
+  font-weight-bold: 900;
+  font-family: "Bungee Outline";
   position: absolute;
-  margin-right: 0px;
-  z-index: 1;
+  margin-top: 250px;
+  margin-left: 150px;
+  display: inline;
+  animation: dekamoji ease 1s;
+}
+
+.dekaimoji {
+  font-size: 150px;
+  font-weight-bold: 900;
+  font-family: "Roboto";
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 250px;
+  display: inline;
+  animation: dekaimo ease 1.3s;
+}
+
+@keyframes dekamoji {
+  0% {
+    transform: translate(-100px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes dekaimo {
+  0% {
+    transform: translate(-13 0px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+body {
+  animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -3,10 +3,9 @@
   /* background-color: #4f9df5; */
   background-color: #ffffff00;
   color: #707070;
-  font-size: 20px;
   margin-bottom: 15px;
-  /* family: impact; */
-  font-size: 25px;
+  font-family: "Roboto";
+  font-size: 30px;
   outline: none;
   border: none;
   transition: 0.3s ease-out;
@@ -19,7 +18,8 @@
 .mnbtn {
   background-color: #ffffff00;
   color: #cacaca;
-  font-size: 20px;
+  font-family: "Roboto";
+  font-size: 50px;
   margin-bottom: 15px;
   outline: none;
   border: none;

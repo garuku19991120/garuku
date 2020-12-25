@@ -6,24 +6,36 @@
 	<link rel="stylesheet" href="./css/master.min.css">
 	<link rel="stylesheet" href="./css/home.min.css">
 	<link rel="stylesheet" href="./css/menu.min.css">
+	<!-- RobotoとNotoSerifJPのフォント読み込み -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Noto+Serif+JP:wght@500&family=Roboto:wght@900&display=swap"
+		rel="stylesheet">
+	<!-- /RobotoとNotoSerifJPのフォント読み込み -->
 	<title>Document</title>
 </head>
 <body>
 	<!-- menuはそのうちPHPファイル化してインクルードする型になると思う -->
+	<table class="logo_table">
+		<tr>
+			<td><a href=""><img src="./img/logo.png" class="logo"></a></td>
+		</tr>
+	</table>
 	<div class="menu_space">
-		<table class="menu_table">
+		<table class="menu_table"border="0">
 			<tr class="menu_tr">
-				<td><a href=""><img src="./img/logo.png" class="logo"></a></td>
-				<td class="menu_td"><a href=""><button class="menu_btn">button1</button></a></td>
-				<td class="menu_td"><a href=""><button class="menu_btn">button2</button></a></td>
-				<td class="menu_td"><a href=""><button class="menu_btn">button3</button></a></td>
-				<td class="menu_td"><a href=""><button class="menu_btn">button4</button></a></td>
+				<td class="menu_td"><a href=""><button class="menu_btn">button1</button><button class="hover">ボタン1</button></a></td>
+				<td class="menu_td"><a href=""><button class="menu_btn">button2</button><button class="hover">ボタン2</button></a></td>
+				<td class="menu_td"><a href=""><button class="menu_btn">button3</button><button class="hover">ボタン3</button></a></td>
+				<td class="menu_td"><a href=""><button class="menu_btn">button4</button><button class="hover">ボタン4</button></a></td>
 			</tr>
 		</table>
 	</div>
 	<!-- ここからメインコンテンツ -->
-	<img src="./img/head.png"class="mainimage">
-	<div class="dekaimoji">aaaaaa</div>
-	<div class="copywrite">©2020-2020.aaaaaa.jp</div>
+	
+	<!-- <img src="./img/head.png"class="mainimage"> -->
+	<div class="mainimage"></div>
+	<div class="dekaimoji">FONT TEST</div>
+	<div class="dekaimoji2">TEST TEST</div>
 </body>
 </html>

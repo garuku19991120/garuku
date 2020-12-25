@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/master.min.css">
     <link rel="stylesheet" href="./css/menu.min.css">
     <link rel="stylesheet" href="./css/shop.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&family=Roboto:wght@900&display=swap" rel="stylesheet">
     <script src="./js/none.js"></script>
     <title>SHOP/ショップ</title>
 </head>

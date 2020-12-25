@@ -1,14 +1,89 @@
+/* 
+追加googleフォント一覧
+font-family: 'Bungee Outline', cursive;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+$maincolor: rgb(255, 27, 27);
+$subcolor: rgb(27, 255, 244);
+$fontcolor: rgb(56, 56, 56);
+
+.mainimage {
+  background-color: $maincolor;
+  width: 1200px;
+  height: 700px;
+  position: absolute;
+  margin: {
+    left: 600px;
+    top: 100px;
+  }
+  display: inline;
+}
+
+.dekaimoji2 {
+  font: {
+    size: 150px;
+    weight-bold: 900;
+    family: "Bungee Outline";
+  }
+  position: absolute;
+  margin: {
+    top: 250px;
+    left: 150px;
+  }
+  display: inline;
+  animation: dekamoji ease 1s;
+}
+
 .dekaimoji {
   font: {
     size: 150px;
+    weight-bold: 900;
+    family: "Roboto";
   }
   position: absolute;
-  z-index: 60;
+  margin: {
+    top: 550px;
+    left: 250px;
+  }
+  display: inline;
+  animation: dekaimo ease 1.3s;
 }
-.mainimage {
-  width: 70%;
-  object-fit: cover;
-  position: absolute;
-  margin-right: 0px;
-  z-index: 1;
+@keyframes dekamoji {
+  0% {
+    transform: translate(-100px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes dekaimo {
+  0% {
+    transform: translate(-13 0px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+body {
+  animation: fadeIn 2s ease 0s 1 normal;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

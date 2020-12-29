@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="./css/master.min.css">
 	<link rel="stylesheet" href="./css/home.min.css">
 	<link rel="stylesheet" href="./css/menu.min.css">
@@ -16,26 +17,10 @@
 </head>
 <body>
 	<!-- menuはそのうちPHPファイル化してインクルードする型になると思う -->
-	<table class="logo_table">
-		<tr>
-			<td><a href=""><img src="./img/logo.png" class="logo"></a></td>
-		</tr>
-	</table>
-	<div class="menu_space">
-		<table class="menu_table"border="0">
-			<tr class="menu_tr">
-				<td class="menu_td"><a href=""><button class="menu_btn">button1</button><button class="hover">ボタン1</button></a></td>
-				<td class="menu_td"><a href=""><button class="menu_btn">button2</button><button class="hover">ボタン2</button></a></td>
-				<td class="menu_td"><a href=""><button class="menu_btn">button3</button><button class="hover">ボタン3</button></a></td>
-				<td class="menu_td"><a href=""><button class="menu_btn">button4</button><button class="hover">ボタン4</button></a></td>
-			</tr>
-		</table>
-	</div>
+	<?php include('./php/menu.php') ?>
 	<!-- ここからメインコンテンツ -->
 	
 	<!-- <img src="./img/head.png"class="mainimage"> -->
-	<div class="mainimage"></div>
-	<div class="dekaimoji">FONT TEST</div>
-	<div class="dekaimoji2">TEST TEST</div>
+
 </body>
 </html>

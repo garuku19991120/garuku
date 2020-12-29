@@ -1,0 +1,5 @@
+@charset "UTF-8";
+/* .container::-webkit-scrollbar {
+    display:none;
+} */
+/* googlechrome、safariにてスクロールバーを非表示にする。 */
